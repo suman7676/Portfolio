@@ -5,10 +5,7 @@ import React, { useState } from 'react';
 
 import Header from "@/components/Header&Footer/Header";
 import Hero from "@/components/Hero";
-import ServiceCards from "@/components/ServiceCards";
-import RoomService from "@/components/RoomService";
-import FoodService from "@/components/FoodService";
-import PicnicService from "@/components/PicnicService";
+
 import Footer from "@/components/Header&Footer/Footer";
 
 export default function Home() {

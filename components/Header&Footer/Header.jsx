@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,7 +15,7 @@ export default function Navbar() {
       {/* Logo */}
       <Link href="/" className="text-2xl sm:text-3xl font-bold leading-none flex-shrink-0">
         <Image
-          src="/logo.svg"
+          src="/Plogo.jpeg"
           alt="Logo"
           width={64}
           height={64}
