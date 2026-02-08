@@ -16,7 +16,7 @@ export default function HeroSection() {
               <div className="w-full text-center lg:text-left">
                 <div className="max-w-md mx-auto lg:mx-0">
                   <h2 className="mb-3 sm:mb-4 text-2xl sm:text-3xl lg:text-4xl font-bold font-heading">
-                    <span className="text-green-600 block mb-2">Hi I'm SUMAN AHAMMED</span>
+                    <span className="text-green-600 block mb-2">Hi I&apos;m SUMAN AHAMMED</span>
                     <span className="text-3xl sm:text-4xl lg:text-5xl text-green-600 block">
                       Full Stack Developer
                     </span>
@@ -25,7 +25,7 @@ export default function HeroSection() {
 
                 <div className="max-w-sm mx-auto lg:mx-0">
                   <p className="mb-6 sm:mb-8 text-sm sm:text-base text-gray-600 leading-relaxed">
-                    Hi I'm a full-stack developer with the love of a UI/UX design. 
+                    Hi I&apos;m a full-stack developer with the love of a UI/UX design. 
                     Listed skills include all things LARAVEL & Next.js FRAMEWORK, JavaScript, 
                     such as React.js & Vue.js, and as well as UI/UX design.
                   </p>
