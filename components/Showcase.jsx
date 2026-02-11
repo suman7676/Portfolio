@@ -34,7 +34,7 @@ const PricingSection = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="w-full lg:w-1/2 ml-20 px-8 py-6">
+              <div className="w-full lg:w-1/2  px-8 py-6">
                 <h1 className="mb-4 text-3xl lg:text-4xl text-red-500 font-bold">Real Estate Website</h1>
                 <ul className="mb-6 text-gray-700 space-y-3">
                   <li className="flex items-center">

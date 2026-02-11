@@ -3,8 +3,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-
+import { FacebookIcon, Github, Instagram, Linkedin, MailIcon, Twitter } from "lucide-react";
 const HeroSection = () => {
+//  throw new Error("hello");
+
   return (
     <section className="relative overflow-hidden">
       <div className="relative bg-gray-50 py-8 sm:py-12 md:py-16 lg:py-20">
@@ -53,7 +55,32 @@ const HeroSection = () => {
                   height={384}
                   priority
                 />
+                <div className="flex space-x-2 my-2 mt-5 lg:space-x-4 justify-center">
+            <Link href="https://www.facebook.com/profile.php?id=100048076428721&mibextid=ZbWKwL">
+              
+              <FacebookIcon className="w-10 h-10 mr-2 text-green-700" />
+            </Link>
+
+            
+            <Link href="https://github.com/suman7676/suman7676">
+             
+               <Github className="w-10 h-10 mr-2 text-green-700" />
+            </Link>
+            <Link href="www.linkedin.com/in/full-stack-developer-suman">
+             
+               <Linkedin className="w-10 h-10 mr-2 text-green-700" />
+            </Link>
+            <Link href="mailto:suman767651@gmail.com">
+             
+               <MailIcon className="w-10 h-10 mr-2 text-green-700" />
+            </Link>
+          </div>
               </div>
+
+              
+
+
+
             </div>
           </div>
         </div>

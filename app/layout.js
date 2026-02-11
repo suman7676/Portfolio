@@ -58,7 +58,8 @@ export const metadata = {
     images: ["/profile.png"],
   },
 };
-
+import Header from "../components/HeaderFooter/Header";
+import Footer from "../components/HeaderFooter/Footer";
 
 export default function RootLayout({ children }) {
   return (
@@ -66,7 +67,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white`}
       >
+        <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

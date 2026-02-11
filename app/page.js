@@ -3,10 +3,10 @@ import Image from "next/image";
 import { Menu, X, Phone, Mail, MapPin, Utensils, Bed, TreePine, Star, Clock, Users  } from "lucide-react";
 import React, { useState } from 'react';
 
-import Header from "@/components/Header&Footer/Header";
-import Hero from "@/components/Hero";
 
-import Footer from "@/components/Header&Footer/Footer";
+import Hero from "../components/Hero";
+
+
 
 export default function Home() {
   
@@ -16,7 +16,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white">
       {/* Header */}
       <div>
-      <Header/>
+   
        </div>
       {/* Hero Section */}
      <Hero/>
@@ -37,7 +37,7 @@ export default function Home() {
     
 
       {/* Footer */}
-      <Footer/>
+      
     </div>
   );
 }

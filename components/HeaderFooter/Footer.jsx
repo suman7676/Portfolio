@@ -1,5 +1,5 @@
 "use client";
-import { FacebookIcon, Github, Instagram, Twitter } from "lucide-react";
+import { FacebookIcon, Github, Instagram, Linkedin, MailIcon, Twitter } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
@@ -35,6 +35,14 @@ export default function Footer() {
             <Link href="https://github.com/suman7676/suman7676">
              
                <Github className="w-10 h-10 mr-2 text-green-700" />
+            </Link>
+            <Link href="www.linkedin.com/in/full-stack-developer-suman">
+             
+               <Linkedin className="w-10 h-10 mr-2 text-green-700" />
+            </Link>
+            <Link href="mailto:suman767651@gmail.com">
+             
+               <MailIcon className="w-10 h-10 mr-2 text-green-700" />
             </Link>
           </div>
         </div>

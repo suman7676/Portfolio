@@ -35,11 +35,15 @@ const Resume = () => {
                   </Link>
                   
                   {/* Download Resume Button */}
-                  <a 
-                    href="/resume/Suman_Ahammed_Resume.pdf" 
-                    download="Suman_Ahammed_Resume.pdf"
-                    className="flex-1 bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded text-center transition-colors">
-                    Download Resume
+                  
+                  <a
+                   href="/resume/Suman_Ahammed_Resume.pdf"
+                   download="Suman_Ahammed_Resume.pdf" 
+                   target="_blank"                     
+                   rel="noopener noreferrer"
+                   className="flex-1 bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded text-center transition-colors"
+                   >
+                     Download Resume
                   </a>
                 </div>
               </div>
