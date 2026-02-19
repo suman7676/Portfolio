@@ -36,7 +36,7 @@ export default function Navbar() {
           </svg>
         </li>
         <li>
-          <Link href="/About" className="text-sm xl:text-base text-green-400 hover:text-green-600 font-bold transition duration-200">
+          <Link href="/about" className="text-sm xl:text-base text-green-400 hover:text-green-600 font-bold transition duration-200">
             About Me
           </Link>
         </li>
@@ -46,7 +46,7 @@ export default function Navbar() {
           </svg>
         </li>
         <li>
-          <Link href="/Showcase" className="text-sm xl:text-base text-green-400 hover:text-green-600 font-bold transition duration-200">
+          <Link href="/showcase" className="text-sm xl:text-base text-green-400 hover:text-green-600 font-bold transition duration-200">
             My Showcase
           </Link>
         </li>
@@ -56,7 +56,7 @@ export default function Navbar() {
           </svg>
         </li>
         <li>
-          <Link href="/Resume" className="text-sm xl:text-base text-green-400 hover:text-green-600 font-bold transition duration-200">
+          <Link href="/resume" className="text-sm xl:text-base text-green-400 hover:text-green-600 font-bold transition duration-200">
             Resume
           </Link>
         </li>
@@ -66,7 +66,7 @@ export default function Navbar() {
           </svg>
         </li>
         <li>
-          <Link href="/Company" className="text-sm xl:text-base text-green-400 hover:text-green-600 font-bold transition duration-200">
+          <Link href="/company" className="text-sm xl:text-base text-green-400 hover:text-green-600 font-bold transition duration-200">
             My Company
           </Link>
         </li>
@@ -74,7 +74,7 @@ export default function Navbar() {
 
       {/* Desktop Contact Button */}
       <Link
-        href="/Contact"
+        href="/contact"
         className="hidden lg:inline-block py-2 px-4 xl:px-6 bg-white hover:bg-gray-50 text-sm text-green-600 font-bold rounded-l-xl rounded-t-xl transition duration-200 shadow-sm"
       >
         Contact Me
@@ -120,10 +120,10 @@ export default function Navbar() {
             <ul className="mt-12 space-y-6 text-left">
               {[
                 { href: "/", label: "Home" },
-                { href: "/About", label: "About Me" },
-                { href: "/Showcase", label: "My Showcase" },
-                { href: "/Resume", label: "Resume" },
-                { href: "/Company", label: "My Company" },
+                { href: "/about", label: "About Me" },
+                { href: "/showcase", label: "My Showcase" },
+                { href: "/resume", label: "Resume" },
+                { href: "/company", label: "My Company" },
               ].map((item) => (
                 <li key={item.href}>
                   <Link
@@ -138,7 +138,7 @@ export default function Navbar() {
 
               <li className="pt-4 border-t border-gray-200">
                 <Link
-                  href="/Contact"
+                  href="/contact"
                   onClick={closeMenu}
                   className="block w-full text-center py-3 px-6 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg transition duration-200"
                 >

@@ -29,7 +29,7 @@ const Resume = () => {
                 {/* Buttons */}
                 <div className="mt-6 flex flex-col sm:flex-row gap-4 w-full justify-center">
                   <Link 
-                    href="/Contact" 
+                    href="/contact" 
                     className="flex-1 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded text-center transition-colors">
                     Contact
                   </Link>

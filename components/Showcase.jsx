@@ -63,7 +63,7 @@ const PricingSection = () => {
 
                 {/* Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Link href="/Contact" className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg text-center">
+                  <Link href="/contact" className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg text-center">
                     Buy Now
                   </Link>
                   

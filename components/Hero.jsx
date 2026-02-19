@@ -31,12 +31,12 @@ const HeroSection = () => {
                   <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center lg:items-start">
                     <Link 
                       className="w-full sm:w-auto py-3 px-6 sm:px-8 leading-loose bg-green-600 hover:bg-green-700 text-white font-semibold rounded-l-xl rounded-t-xl transition duration-200 text-center" 
-                      href="/Contact">
+                      href="/contact">
                       Get Started
                     </Link>
                     <Link 
                       className="w-full sm:w-auto py-3 px-6 sm:px-8 leading-loose font-semibold text-white bg-green-600 hover:bg-green-700 border border-gray-200 rounded-l-xl rounded-t-xl transition duration-200 text-center" 
-                      href="/Resume">
+                      href="/resume">
                       My Resume
                     </Link>
                   </div>
