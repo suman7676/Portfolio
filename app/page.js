@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 
 
 import Hero from "../components/Hero";
+import Skills from '@/components/Skills';
 
 
 
@@ -21,8 +22,8 @@ export default function Home() {
       {/* Hero Section */}
      <Hero/>
 
-      {/* Services Overview */}
-     
+      {/* Skills Overview */}
+       <Skills/>
 
       {/* Rooms Section */}
      
