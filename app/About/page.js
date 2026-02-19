@@ -33,7 +33,7 @@ export const metadata = {
   openGraph: {
     title: 'About Me - Full-Stack Developer | Laravel, React & Next.js Expert',
     description: 'Full-stack developer passionate about creating beautiful, functional web applications. Specializing in Laravel Framework, React.js, Next.js with a love for UI/UX design.',
-    url: 'https://sumanahammed.com/About',
+    url: 'https://sumanahammed.com/about',
     siteName: 'My Portfolio',
     locale: 'en_US',
     type: 'profile',
@@ -51,12 +51,12 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Full-Stack Developer | Laravel & React Expert',
     description: 'Passionate developer specializing in Laravel, React.js, Next.js with UI/UX design expertise',
-    creator: '@@sumanahammed',
+    creator: '@sumanahammed',
     images: ['https://sumanahammed.com/profile.png'],
   },
   
   alternates: {
-    canonical: 'https://sumanahammed.com/About',
+    canonical: 'https://sumanahammed.com/about',
   },
   
   robots: {

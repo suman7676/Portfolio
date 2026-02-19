@@ -35,7 +35,7 @@ export const metadata = {
   openGraph: {
     title: 'Resume - Suman Ahammed | Full-Stack Developer',
     description: 'View my professional resume showcasing expertise in Laravel, React.js, Next.js, and UI/UX design. Download CV and explore my work experience, skills, and qualifications.',
-    url: 'https://sumanahammed.com/Resume',
+    url: 'https://sumanahammed.com/resume',
     siteName: 'My Portfolio',
     locale: 'en_US',
     type: 'profile',
@@ -58,7 +58,7 @@ export const metadata = {
   },
   
   alternates: {
-    canonical: 'https://sumanahammed.com/Resume',
+    canonical: 'https://sumanahammed.com/resume',
   },
   
   robots: {

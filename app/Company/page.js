@@ -32,7 +32,7 @@ export const metadata = {
   openGraph: {
     title: 'Company & Clients - Suman Ahammed | Laravel & React Developer',
     description: 'Discover the companies and clients who trust me for their web development needs. Delivering quality Laravel, React.js, and Next.js solutions for businesses worldwide.',
-    url: 'https://sumanahammed.com/Company',
+    url: 'https://sumanahammed.com/company',
     siteName: 'My Portfolio',
     locale: 'en_US',
     type: 'website',
@@ -50,12 +50,12 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Company & Clients | Professional Web Development Services',
     description: 'Trusted Laravel, React.js, and Next.js developer working with leading companies and clients',
-    creator: '@@sumanahammed',
+    creator: '@sumanahammed',
     images: ['https://sumanahammed.com/profile.png'],
   },
   
   alternates: {
-    canonical: 'https://sumanahammed.com/Company',
+    canonical: 'https://sumanahammed.com/company',
   },
   
   robots: {

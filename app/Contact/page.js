@@ -34,7 +34,7 @@ export const metadata = {
   openGraph: {
     title: 'Contact - Suman Ahammed | Full-Stack Developer',
     description: 'Let\'s work together! Contact me for Laravel, React.js, Next.js development projects. Available for freelance work, collaborations, and full-time opportunities.',
-    url: 'https://sumanahammed.com/Contact',
+    url: 'https://sumanahammed.com/contact',
     siteName: 'My Portfolio',
     locale: 'en_US',
     type: 'website',
@@ -52,12 +52,12 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Contact Me | Laravel & React Developer Available for Hire',
     description: 'Reach out for web development projects, collaborations, or freelance opportunities',
-    creator: '@@sumanahammed',
+    creator: '@sumanahammed',
     images: ['https://sumanahammed.com/profile.png'],
   },
   
   alternates: {
-    canonical: 'https://sumanahammed.com/Contact',
+    canonical: 'https://sumanahammed.com/contact',
   },
   
   robots: {

@@ -34,7 +34,7 @@ export const metadata = {
   openGraph: {
     title: 'Project Showcase - Full-Stack Developer | Laravel, React & Next.js',
     description: 'Browse through my collection of web development projects. From Laravel backends to React frontends, see how I bring ideas to life with clean code and beautiful design.',
-    url: 'https://sumanahammed.com/Showcase',
+    url: 'https://sumanahammed.com/showcase',
     siteName: 'My Portfolio',
     locale: 'en_US',
     type: 'website',
@@ -52,12 +52,12 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Project Showcase | Laravel & React Developer',
     description: 'Explore my portfolio of Laravel, React.js, and Next.js projects showcasing full-stack development expertise',
-    creator: '@@sumanahammed',
+    creator: '@sumanahammed',
     images: ['https://sumanahammed.com/profile.png'],
   },
   
   alternates: {
-    canonical: 'https://sumanahammed.com/Showcase',
+    canonical: 'https://sumanahammed.com/showcase',
   },
   
   robots: {
